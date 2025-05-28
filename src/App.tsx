@@ -1,4 +1,5 @@
 import './App.css';
+import About from './components/About';
 import CampaignLog from './components/CampaignLog';
 import Contact from './components/Contact';
 import DownloadCV from './components/DownloadCV';
@@ -26,6 +27,7 @@ function App() {
       >
         <div className="max-w-3xl mx-auto bg-gray-800 border-4 border-yellow-500 rounded-xl shadow-xl p-6 space-y-6">
           <Header />
+          <About />
           <Stats />
           <Proficiencies />
           <CampaignLog />

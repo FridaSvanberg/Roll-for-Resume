@@ -5,7 +5,7 @@ const Header = () => {
         🧝🏾‍♂️ Frida Svanberg – Front-End Developer (Level 7)
       </h1>
       <p className="text-gray-300" aria-label="Title subtitle">
-        UX Ranger & Team Bard 🎯🎻
+        UX Ranger • Team Bard • Neurodivergent problem-solver
       </p>
     </header>
   );
