@@ -4,7 +4,7 @@ import Contact from './components/Contact';
 import DownloadCV from './components/DownloadCV';
 import Header from './components/Header';
 import Proficiencies from './components/Proficiencies';
-import Spellbook from './components/Spellbook';
+// import Spellbook from './components/Spellbook';
 import Stats from './components/Stats';
 import Traits from './components/Traits';
 
@@ -29,7 +29,7 @@ function App() {
           <Stats />
           <Proficiencies />
           <CampaignLog />
-          <Spellbook />
+          {/* <Spellbook /> */}
           <Traits />
           <DownloadCV />
           <Contact />
