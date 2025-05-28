@@ -1,8 +1,10 @@
 import './App.css';
 import CampaignLog from './components/CampaignLog';
 import Contact from './components/Contact';
+import DownloadCV from './components/DownloadCV';
 import Header from './components/Header';
 import Proficiencies from './components/Proficiencies';
+import Spellbook from './components/Spellbook';
 import Stats from './components/Stats';
 import Traits from './components/Traits';
 
@@ -14,7 +16,9 @@ function App() {
         <Stats />
         <Proficiencies />
         <CampaignLog />
+        <Spellbook />
         <Traits />
+        <DownloadCV />
         <Contact />
       </div>
     </main>
