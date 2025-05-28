@@ -10,12 +10,13 @@ const Contact = () => {
       <p className="text-gray-300 mb-2">
         Whether it's a quest, collab, or just a hello:
       </p>
-      <ul className="space-y-2 text-sm">
+
+      <ul className="space-y-2 text-sm text-gray-300">
         <li>
           <span className="text-yellow-400">📧 Email:</span>{' '}
           <a
             href="mailto:svanberg92@gmail.com"
-            className="underline text-blue-300 hover:text-yellow-400"
+            className="underline text-blue-300 hover:text-yellow-400 focus:outline focus:outline-2 focus:outline-yellow-400"
           >
             svanberg92@gmail.com
           </a>
@@ -24,7 +25,9 @@ const Contact = () => {
           <span className="text-yellow-400">🔗 LinkedIn:</span>{' '}
           <a
             href="https://www.linkedin.com/in/fridasvanberg"
-            className="underline text-blue-300 hover:text-yellow-400"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline text-blue-300 hover:text-yellow-400 focus:outline focus:outline-2 focus:outline-yellow-400"
           >
             linkedin.com/in/fridasvanberg
           </a>
@@ -33,7 +36,9 @@ const Contact = () => {
           <span className="text-yellow-400">🐙 GitHub:</span>{' '}
           <a
             href="https://github.com/FridaSvanberg"
-            className="underline text-blue-300 hover:text-yellow-400"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline text-blue-300 hover:text-yellow-400 focus:outline focus:outline-2 focus:outline-yellow-400"
           >
             github.com/FridaSvanberg
           </a>

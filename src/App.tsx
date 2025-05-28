@@ -30,9 +30,9 @@ function App() {
           <About />
           <Stats />
           <Proficiencies />
+          <Traits />
           <CampaignLog />
           {/* <Spellbook /> */}
-          <Traits />
           <DownloadCV />
           <Contact />
         </div>
