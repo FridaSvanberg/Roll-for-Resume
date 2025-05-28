@@ -1,10 +1,12 @@
 const CampaignLog = () => {
   return (
-    <section>
-      <h2 className="text-xl text-yellow-300 mb-2">🧪 Campaign Log</h2>
+    <section aria-labelledby="campaign-heading">
+      <h2 id="campaign-heading" className="text-xl text-yellow-300 mb-2">
+        🧪 Campaign Log
+      </h2>
       <div className="space-y-4">
-        <div>
-          <h3 className="text-lg text-yellow-400">
+        <article aria-labelledby="hakierka-role">
+          <h3 id="hakierka-role" className="text-lg text-yellow-400">
             Frontend Developer @ Hakierka
           </h3>
           <p className="text-sm text-gray-400">🗓️ Feb 2024 – Present</p>
@@ -15,10 +17,10 @@ const CampaignLog = () => {
             </li>
             <li>Helped test and enchant tools for internal teams</li>
           </ul>
-        </div>
+        </article>
 
-        <div>
-          <h3 className="text-lg text-yellow-400">
+        <article aria-labelledby="stryda-role">
+          <h3 id="stryda-role" className="text-lg text-yellow-400">
             Frontend Developer @ Stryda
           </h3>
           <p className="text-sm text-gray-400">🗓️ May 2022 – Jan 2024</p>
@@ -29,10 +31,10 @@ const CampaignLog = () => {
             </li>
             <li>Built a BI admin portal using React + TypeScript</li>
           </ul>
-        </div>
+        </article>
 
-        <div>
-          <h3 className="text-lg text-yellow-400">
+        <article aria-labelledby="compodium-role">
+          <h3 id="compodium-role" className="text-lg text-yellow-400">
             Frontend Developer @ Compodium
           </h3>
           <p className="text-sm text-gray-400">🗓️ Mar 2021 – Apr 2022</p>
@@ -43,10 +45,10 @@ const CampaignLog = () => {
             <li>Focused on accessibility and frontend security spells</li>
             <li>Left behind clean code scrolls and proper documentation</li>
           </ul>
-        </div>
+        </article>
 
-        <div>
-          <h3 className="text-lg text-yellow-400">
+        <article aria-labelledby="hygglo-role">
+          <h3 id="hygglo-role" className="text-lg text-yellow-400">
             Frontend Developer @ Hygglo
           </h3>
           <p className="text-sm text-gray-400">🗓️ Feb 2019 – Feb 2021</p>
@@ -62,7 +64,7 @@ const CampaignLog = () => {
               diversity
             </li>
           </ul>
-        </div>
+        </article>
       </div>
     </section>
   );

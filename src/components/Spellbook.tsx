@@ -1,7 +1,9 @@
 const Spellbook = () => {
   return (
-    <section className="mt-8">
-      <h2 className="text-xl text-yellow-300 mb-2">📘 Spellbook</h2>
+    <section aria-labelledby="spellbook-heading" className="mt-8">
+      <h2 id="spellbook-heading" className="text-xl text-yellow-300 mb-2">
+        📘 Spellbook
+      </h2>
       <ul className="list-disc list-inside text-gray-300 space-y-2">
         <li>
           <strong>🕒 Timer Challenge:</strong> A JavaScript timer app for dev

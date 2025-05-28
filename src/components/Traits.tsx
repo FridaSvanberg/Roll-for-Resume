@@ -1,7 +1,9 @@
 const Traits = () => {
   return (
-    <section className="mt-8">
-      <h2 className="text-xl text-yellow-300 mb-2">📜 Traits & Side Quests</h2>
+    <section aria-labelledby="traits-heading" className="mt-8">
+      <h2 id="traits-heading" className="text-xl text-yellow-300 mb-2">
+        📜 Traits & Side Quests
+      </h2>
       <ul className="list-disc list-inside text-gray-300 space-y-1">
         <li>🧩 Neurodivergent = unique logic & creative solutions</li>
         <li>🤗 Supportive teammate – enjoys mentoring & feedback loops</li>
