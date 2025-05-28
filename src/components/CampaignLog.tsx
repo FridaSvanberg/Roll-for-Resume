@@ -11,11 +11,13 @@ const CampaignLog = () => {
           </h3>
           <p className="text-sm text-gray-400">🗓️ Feb 2024 – Present</p>
           <ul className="list-disc list-inside text-gray-300 mt-1">
-            <li>Advised adventuring guilds like Concordium & Protocol Labs</li>
             <li>
-              Wrote scrolls (docs) and created demos for the dev community
+              Tested Storacha-related code to check functionality and usability
             </li>
-            <li>Helped test and enchant tools for internal teams</li>
+            <li>Gave feedback to improve the experience for developers</li>
+            <li>
+              Helped ensure internal tools worked smoothly across use cases
+            </li>
           </ul>
         </article>
 
@@ -27,9 +29,16 @@ const CampaignLog = () => {
           <ul className="list-disc list-inside text-gray-300 mt-1">
             <li>Promoted from intern to lead dev of the intern squad 🛡️</li>
             <li>
-              Held retros, wrote battle plans (tickets), and led daily stand-ups
+              Held retros, led daily stand-ups, and wrote battle plans (tickets)
             </li>
-            <li>Built a BI admin portal using React + TypeScript</li>
+            <li>
+              Built a Business Intelligence admin portal using React +
+              TypeScript
+            </li>
+            <li>
+              Bridged communication between dev realms (frontend + backend) for
+              smoother launches
+            </li>
           </ul>
         </article>
 
@@ -42,8 +51,14 @@ const CampaignLog = () => {
             <li>
               Helped craft Vidicue, a secure app for healthcare mages 🧙‍⚕️
             </li>
-            <li>Focused on accessibility and frontend security spells</li>
-            <li>Left behind clean code scrolls and proper documentation</li>
+            <li>
+              Focused on building a safe, accessible frontend for sensitive user
+              data
+            </li>
+            <li>
+              Worked closely with the infrastructure team to align on technical
+              requirements and stability
+            </li>
           </ul>
         </article>
 
@@ -54,14 +69,23 @@ const CampaignLog = () => {
           <p className="text-sm text-gray-400">🗓️ Feb 2019 – Feb 2021</p>
           <ul className="list-disc list-inside text-gray-300 mt-1">
             <li>
-              Started as an intern and became the lead on the admin platform
+              Started as an intern and took full responsibility for the admin
+              platform’s frontend 🛠️
             </li>
             <li>
-              Used React Native & Angular to build both mobile and web tools
+              Refactored legacy code, improved workflows, and modernized the
+              tech stack
             </li>
             <li>
-              Launched festive features (Pride, Christmas) and advocated
-              diversity
+              Created seasonal campaign features (Easter, Pride) in
+              collaboration with the marketing team
+            </li>
+            <li>
+              Championed diversity and inclusion in design ideas and feature
+              planning
+            </li>
+            <li>
+              Developed for both web and mobile using Angular and React Native
             </li>
           </ul>
         </article>
