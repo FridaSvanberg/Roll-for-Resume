@@ -4,7 +4,7 @@ const Traits = () => {
       <h2 id="traits-heading" className="text-xl text-yellow-300 mb-2">
         📜 Traits & Side Quests
       </h2>
-      <ul className="list-disc list-inside text-gray-300 space-y-1">
+      <ul className=" list-inside text-gray-300 space-y-1">
         <li>🧩 Neurodivergent – sees structure, flow, and logic differently</li>{' '}
         <li>🎯 Clear communicator – gives and receives feedback with care</li>
         <li>🤗 Supportive teammate – brings calm energy and listens well</li>

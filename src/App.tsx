@@ -3,6 +3,7 @@ import About from './components/About';
 import CampaignLog from './components/CampaignLog';
 import Contact from './components/Contact';
 import DownloadCV from './components/DownloadCV';
+import Footer from './components/Footer';
 import Header from './components/Header';
 import Proficiencies from './components/Proficiencies';
 // import Spellbook from './components/Spellbook';
@@ -37,6 +38,7 @@ function App() {
           <Contact />
         </div>
       </main>
+      <Footer />
     </div>
   );
 }

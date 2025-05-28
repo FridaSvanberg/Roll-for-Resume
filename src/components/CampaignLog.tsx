@@ -10,7 +10,7 @@ const CampaignLog = () => {
             Frontend Developer @ Hakierka
           </h3>
           <p className="text-sm text-gray-400">🗓️ Feb 2024 – Present</p>
-          <ul className="list-disc list-inside text-gray-300 mt-1">
+          <ul className=" list-inside text-gray-300 mt-1">
             <li>
               Tested Storacha-related code to check functionality and usability
             </li>
@@ -26,7 +26,7 @@ const CampaignLog = () => {
             Frontend Developer @ Stryda
           </h3>
           <p className="text-sm text-gray-400">🗓️ May 2022 – Jan 2024</p>
-          <ul className="list-disc list-inside text-gray-300 mt-1">
+          <ul className=" list-inside text-gray-300 mt-1">
             <li>Promoted from intern to lead dev of the intern squad 🛡️</li>
             <li>
               Held retros, led daily stand-ups, and wrote battle plans (tickets)
@@ -47,7 +47,7 @@ const CampaignLog = () => {
             Frontend Developer @ Compodium
           </h3>
           <p className="text-sm text-gray-400">🗓️ Mar 2021 – Apr 2022</p>
-          <ul className="list-disc list-inside text-gray-300 mt-1">
+          <ul className=" list-inside text-gray-300 mt-1">
             <li>
               Helped craft Vidicue, a secure app for healthcare mages 🧙‍⚕️
             </li>
@@ -67,7 +67,7 @@ const CampaignLog = () => {
             Frontend Developer @ Hygglo
           </h3>
           <p className="text-sm text-gray-400">🗓️ Feb 2019 – Feb 2021</p>
-          <ul className="list-disc list-inside text-gray-300 mt-1">
+          <ul className=" list-inside text-gray-300 mt-1">
             <li>
               Started as an intern and took full responsibility for the admin
               platform’s frontend 🛠️

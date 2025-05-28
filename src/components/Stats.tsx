@@ -4,7 +4,7 @@ const Stats = () => {
       <h2 id="stats-heading" className="text-xl text-yellow-300 mb-2">
         🎯 Stats
       </h2>
-      <ul className="list-disc text-gray-300 list-inside space-y-1">
+      <ul className="text-gray-300 list-inside space-y-1">
         <li>🧠 INT (Tech Knowledge): +4 – React, Tailwind, JS, Next.js</li>
         <li>🎨 CHA (Design Sense): +3 – Accessible, clean, user-focused UI</li>
         <li>🤝 WIS (Team Spirit): +5 – Communicative, calm, supportive</li>
