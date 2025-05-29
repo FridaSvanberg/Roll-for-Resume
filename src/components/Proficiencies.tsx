@@ -13,7 +13,6 @@ import {
   SiSlack,
   SiOpenai,
   SiIonic,
-  SiIterm2,
 } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 
@@ -89,7 +88,6 @@ const Proficiencies = () => {
                 label: 'OpenAI / ChatGPT',
                 color: 'text-emerald-400',
               },
-              { icon: SiIterm2, label: 'iTerm2', color: 'text-gray-400' },
             ].map(({ icon: Icon, label, color }) => (
               <li key={label}>
                 <span title={label} className="cursor-help">
