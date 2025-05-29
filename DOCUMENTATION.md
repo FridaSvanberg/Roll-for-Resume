@@ -70,13 +70,13 @@ Custom print styles are defined in `index.css` to ensure the CV is printer-frien
 
 ## 📄 Updating Downloadable Documents
 
-To update the CV or personal letter:
+To update the CV or cover letter:
 
 1. Replace the existing PDF files in the `public/` directory:
 
 - `FridaSvanbergCV.pdf`
 
-- `FridaSvanbergPersonalLetter.pdf`
+- `FridaSvanbergCoverLetter.pdf`
 
 2. Ensure the `DownloadCV.tsx` component references the correct filenames.
 
