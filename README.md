@@ -41,11 +41,11 @@ src/
 
 ---
 
-<!-- ## 🧙 Want the Dev Details?
+## 🧙 Want the Dev Details?
 
 This repo includes a full breakdown of the setup, accessibility features, and future plans in [DOCUMENTATION.md](./DOCUMENTATION.md).
 
---- -->
+---
 
 ## 📬 Contact
 
