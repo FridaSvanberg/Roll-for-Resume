@@ -24,7 +24,7 @@ function App() {
       </header>
       <main
         id="main-content"
-        className="min-h-screen bg-gray-900 text-gray-100 font-mono bg-[url('/bg-placeholder.png')] bg-cover bg-center bg-no-repeat"
+        className="min-h-screen bg-gray-900 text-gray-100 font-mono bg-[url('src/assets/bg-placeholder.png')] bg-cover bg-center bg-no-repeat"
       >
         <div className="max-w-3xl mx-auto bg-gray-800 border-4 border-yellow-500 rounded-xl shadow-xl p-6 space-y-6">
           <Header />
