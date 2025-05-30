@@ -40,10 +40,29 @@ Welcome! This is my Dungeons & Dragons–inspired portfolio CV Built with **Reac
 src/
 ├── assets/           #  Images, icons, and static files
 ├── components/       #  Reusable React components
+├── hooks/            #  Custom React hooks for shared logic
+├── utils/            #  Helper functions and utility modules
 ├── App.tsx           #  Main app layout
 ├── main.tsx          #  React app entry point
 └── index.css         #  Global styles & Tailwind config
 ```
+
+---
+
+## 🎲 Console Easter Egg
+
+Are you the kind of dev who opens the browser console just to see what's lurking in there?Well, roll for insight, adventurer — something magical awaits you:
+`// Open DevTools and refresh the page to roll a D20 🎲`
+
+Depending on your roll, you'll uncover:
+
+- 💀 A critical fail (oops...)
+
+- 🧐 Insightful details about Frida's tools and traits
+
+- 🧙 A perfect roll full of frontend flair
+
+A little surprise for the curious.Because even CVs deserve some ✨ personality ✨.
 
 ---
 
@@ -62,3 +81,7 @@ This repo includes a full breakdown of the setup, accessibility features, and fu
 ---
 
 > _"Roll for initiative... and by that I mean: let's build something cool!"_
+
+```
+
+```
