@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 .env
-publish/ipns-key
+publish
