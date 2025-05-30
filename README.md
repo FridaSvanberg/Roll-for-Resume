@@ -36,13 +36,14 @@ Welcome! This is my Dungeons & Dragons–inspired portfolio CV Built with **Reac
 
 ## 📁 Structure
 
+```
 src/
-├── components/ # Sections like Header, Traits, Contact, etc.
-├── assets/ # Images and icons
-├── App.tsx # Main layout
-├── index.css # Global + print styles
-├── main.tsx # Entry point
-├── public/ # PDF downloads
+├── assets/           #  Images, icons, and static files
+├── components/       #  Reusable React components
+├── App.tsx           #  Main app layout
+├── main.tsx          #  React app entry point
+└── index.css         #  Global styles & Tailwind config
+```
 
 ---
 
