@@ -12,7 +12,10 @@ import Traits from './components/Traits';
 
 import bgPlaceholder from '../src/assets/bg-placeholder.png';
 
+import { useEasterEgg } from './hooks/useEasterEgg';
+
 function App() {
+  useEasterEgg();
   return (
     <div className="min-h-screen bg-gray-900 text-gray-100 font-mono">
       <a
