@@ -2,27 +2,32 @@
 
 ## 🧝🏾‍♂️ Frida Svanberg – Front-End Developer (Level 7)
 
-This document provides an in-depth look at the architecture, accessibility considerations, and future development plans for this Dungeons & Dragons–inspired portfolio CV.
+This document provides an in-depth look at the architecture, accessibility considerations, and future development plans for this Dungeons & Dragons–inspired portfolio CV. It's built with React, TypeScript, Tailwind CSS, and hosted on the decentralized web.
 
 ---
 
 ## 🏗️ Project Structure
 
 ```bash
-src/
-├── assets/ # Images, icons, and other static assets
-├── components/ # Reusable React components
-│ ├── Header.tsx
-│ ├── Traits.tsx
-│ ├── Proficiencies.tsx
-│ ├── CampaignLog.tsx
-│ ├── Contact.tsx
-│ └── DownloadCV.tsx
-├── App.tsx # Main application component
-├── main.tsx # Entry point for the React application
-├── index.css # Global styles and Tailwind CSS directives
-├── tailwind.config.js # Tailwind CSS configuration
-└── vite.config.ts # Vite configuration
+my-dd-cv/
+├── src/ # Main source code
+│   ├── assets/ # Images, icons, and static files
+│   ├── components/ # Reusable React components
+│   ├── App.tsx # Main app layout
+│   ├── main.tsx # React app entry point
+│   └── index.css # Global styles & Tailwind config
+│
+├── publish/ # Deployment and IPNS tools (not required in production build)
+│   ├── deploy.js # Upload and publish to IPFS/IPNS
+│   ├── update-cid.js # Auto-update README with latest CID
+│   ├── ipns-key # IPNS signing key (keep private!)
+│   └── latest-cid.txt # Stores last deployed CID
+│
+├── README.md # Project overview and usage
+├── package.json # Project metadata and scripts
+├── vite.config.ts # Vite bundler config
+├── tailwind.config.ts # Tailwind CSS config
+└── .gitignore # Files and folders to ignore in git
 ```
 
 ---
@@ -33,6 +38,7 @@ src/
 - **Tailwind CSS** for utility-first styling
 - **Vite** for fast development and build tooling
 - **React Icons** for scalable vector icons
+- **Web3.Storage (w3up)** for decentralized hosting
 
 ---
 
@@ -84,21 +90,40 @@ To update the CV or cover letter:
 
 ## 🚀 Development Commands
 
+Deployment is handled using IPFS & IPNS:
+
+- Run node `publish/deploy.js` to:
+
+- Build the project
+
+- Upload to Web3.Storage
+
+- Update your IPNS record
+
+- Auto-commit with the new CID
+
+IPNS URL format:
+`https://w3s.link/ipns/<your-name>`
+
+CID snapshot format:
+`https://<cid>.ipfs.w3s.link/`
+These scripts are optional and intended for developers hosting the site via IPFS.
+
+---
+
+## 🧠 Development Commands
+
 ```bash
 # Install dependencies
-
 npm install
 
 # Start development server
-
 npm run dev
 
-# Build for production
-
+# Build production version
 npm run build
 
-# Preview the production build
-
+# Preview production locally
 npm run preview
 ```
 
@@ -113,6 +138,8 @@ npm run preview
 - Character Sheet Styling: Redesign the layout to mimic a traditional D&D character sheet, enhancing the thematic experience.
 
 - Project Showcase: Introduce a "Spellbook" section to highlight personal projects and achievements.
+
+- Add unit tests with React Testing Library.
 
 ---
 
