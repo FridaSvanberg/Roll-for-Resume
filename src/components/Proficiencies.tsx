@@ -13,6 +13,7 @@ import {
   SiSlack,
   SiOpenai,
   SiIonic,
+  SiIpfs,
 } from 'react-icons/si';
 import { VscVscode } from 'react-icons/vsc';
 
@@ -87,6 +88,11 @@ const Proficiencies = () => {
                 icon: SiOpenai,
                 label: 'OpenAI / ChatGPT',
                 color: 'text-emerald-400',
+              },
+              {
+                icon: SiIpfs,
+                label: 'IPFS / IPNS',
+                color: 'text-teal-400',
               },
             ].map(({ icon: Icon, label, color }) => (
               <li key={label}>
