@@ -1,4 +1,3 @@
-// publish/deploy.js
 import * as Name from 'w3name';
 import fs from 'fs/promises';
 import { execSync } from 'child_process';

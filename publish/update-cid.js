@@ -1,4 +1,3 @@
-// publish/update-cid.js
 import fs from 'fs';
 
 export default async function updateReadmeWithCID() {
