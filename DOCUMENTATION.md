@@ -38,7 +38,7 @@ my-dd-cv/
 - **Tailwind CSS** for utility-first styling
 - **Vite** for fast development and build tooling
 - **React Icons** for scalable vector icons
-- **Web3.Storage (w3up)** for decentralized hosting
+- **Web3.Storage** (now rebranded as **Storacha**) for decentralized hosting
 
 ---
 

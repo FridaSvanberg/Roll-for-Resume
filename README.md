@@ -1,6 +1,6 @@
 # Frida Svanberg – Front-End Developer (Level 7)
 
-Welcome! This is my Dungeons & Dragons–inspired portfolio CV Built with **React**, **TypeScript**, **Tailwind CSS**, and deployed via **Storacha** using **IPNS**. It’s a creative, accessible, and responsive personal site that shares a little more personality than your average resume scroll.
+Welcome! This is my Dungeons & Dragons–inspired portfolio CV Built with **React**, **TypeScript**, **Tailwind CSS**, and deployed via **Web3.Storage** using **IPNS**. It’s a creative, accessible, and responsive personal site that shares a little more personality than your average resume scroll.
 
 ---
 
@@ -17,7 +17,7 @@ Welcome! This is my Dungeons & Dragons–inspired portfolio CV Built with **Reac
 - 🎨 Custom theme with pixel art styling and light fantasy inspiration
 - 📄 Downloadable CV and cover letter
 - 🔧 Clean, component-based architecture
-- Web3-hosted via [Storacha](https://storacha.network/)
+- Web3-hosted via Web3.Storage (now rebranded as [Storacha](https://storacha.network/))
 - Automated deploy script (build → upload → update IPNS)
 
 ---

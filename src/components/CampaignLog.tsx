@@ -2,7 +2,7 @@ const CampaignLog = () => {
   return (
     <section aria-labelledby="campaign-heading">
       <h2 id="campaign-heading" className="text-xl text-yellow-300 mb-2">
-        🧪 Campaign Log
+        🗺️ Campaign Log
       </h2>
       <div className="space-y-4">
         <article aria-labelledby="hakierka-role">
@@ -12,7 +12,8 @@ const CampaignLog = () => {
           <p className="text-sm text-gray-400">🗓️ Feb 2024 – Present</p>
           <ul className=" list-inside text-gray-300 mt-1">
             <li>
-              Tested Storacha-related code to check functionality and usability
+              Tested Web3.Storage-related code to check functionality and
+              usability 🧪
             </li>
             <li>Gave feedback to improve the experience for developers</li>
             <li>
