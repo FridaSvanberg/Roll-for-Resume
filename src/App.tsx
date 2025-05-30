@@ -10,7 +10,7 @@ import Proficiencies from './components/Proficiencies';
 import Stats from './components/Stats';
 import Traits from './components/Traits';
 
-import bgPlaceholder from 'src/assets/bg-placeholder.png';
+import bgPlaceholder from '../src/assets/bg-placeholder.png';
 
 function App() {
   return (
