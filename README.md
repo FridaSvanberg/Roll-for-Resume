@@ -1,31 +1,36 @@
 # Frida Svanberg – Front-End Developer (Level 7)
 
-Welcome! This is my Dungeons & Dragons–inspired portfolio CV built using React, TypeScript, and Tailwind CSS. It’s a creative, accessible, and responsive personal site that shares a little more personality than your average resume scroll.
+Welcome! This is my Dungeons & Dragons–inspired portfolio CV Built with **React**, **TypeScript**, **Tailwind CSS**, and deployed via **Storacha** using **IPNS**. It’s a creative, accessible, and responsive personal site that shares a little more personality than your average resume scroll.
 
 ---
 
-<!-- ## 🌐 Live Preview
+## 🚀 View Live
 
-🔗 [my-dd-cv.vercel.app](https://your-live-link.vercel.app)
+- 🔁 [Latest version via IPNS](https://w3s.link/ipns/k51qzi5uqu5dhxnxzz4sp2jre8zjvase81v91eznzvryktifym02hwohhavfh0)
+- 📦 [Snapshot version (CID)](https://bafybeigy63vydajfts7axgjjxllgexc5twxcfrb2gumrkfsj72bwtkqwia.ipfs.w3s.link/)
 
---- -->
+---
 
 ## ✨ Overview
 
 - ♿ Accessibility-focused structure and markup
 - 🎨 Custom theme with pixel art styling and light fantasy inspiration
-- 📄 Downloadable CV and personal letter
+- 📄 Downloadable CV and cover letter
 - 🔧 Clean, component-based architecture
+- Web3-hosted via [Storacha](https://storacha.network/)
+- Automated deploy script (build → upload → update IPNS)
 
 ---
 
 ## 🛠️ Tech Stack
 
-- React
-- TypeScript
-- Vite
-- Tailwind CSS (v4)
-- React Icons
+- `React + TypeScript`
+- `Vite`
+- `Tailwind CSS v4`
+- `react-icons`
+- `Web3.Storage (w3up)`
+- `IPNS for permanent, mutable links`
+- `Custom deploy script using w3name + Node.js`
 
 ---
 

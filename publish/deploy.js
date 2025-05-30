@@ -1,3 +1,4 @@
+// publish/deploy.js
 import * as Name from 'w3name';
 import fs from 'fs/promises';
 import { execSync } from 'child_process';
@@ -8,31 +9,36 @@ async function main() {
   const spinner = ora('Starting deployment...').start();
 
   try {
-    // 🧱 Build step
+    // 🧱 Build
     spinner.text = 'Building project...';
     execSync('npm run build', { stdio: 'ignore' });
 
-    // 📤 Upload step
+    // 📤 Upload to Web3.Storage
     spinner.text = 'Uploading to Web3 Storage...';
     const result = execSync('w3up upload ./dist', { encoding: 'utf-8' });
     const cidMatch = result.match(/bafy[^\s]+/);
     if (!cidMatch) throw new Error('❌ CID not found!');
     const cid = cidMatch[0];
 
-    // Save CID
-    await fs.writeFile('./publish/last-cid.txt', cid);
+    // 💾 Save latest CID
+    await fs.writeFile('./publish/latest-cid.txt', cid);
 
     // 🔑 Load IPNS key
     spinner.text = 'Loading IPNS key...';
     const keyBytes = await fs.readFile('./publish/ipns-key');
     const name = await Name.from(keyBytes);
 
-    // ✍️ Publish to IPNS
-    spinner.text = 'Publishing to IPNS...';
+    // 🔁 Update IPNS
+    spinner.text = 'Publishing new IPNS revision...';
     const revision = await Name.v0(name, `/ipfs/${cid}`);
     await Name.publish(revision, name.key);
 
-    // 🐙 Commit & push to GitHub
+    // 📝 Update README with new CID
+    spinner.text = 'Updating README with new CID...';
+    const updateReadme = await import('./update-cid.js');
+    await updateReadme.default();
+
+    // 🐙 Git commit and push
     spinner.text = 'Committing & pushing to GitHub...';
     execSync('git add .', { stdio: 'ignore' });
     execSync(`git commit -m "Deploy: update IPNS to ${cid}"`, {
@@ -43,7 +49,7 @@ async function main() {
     // ✅ Done
     spinner.succeed(
       `🚀 Deployed! View: ${chalk.cyan(
-        `https://ipfs.io/ipns/${name.toString()}`
+        `https://w3s.link/ipns/${name.toString()}`
       )}`
     );
   } catch (err) {
