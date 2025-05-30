@@ -23,4 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-publish/
+# Ignore all publish files except the CID
+/publish/*
+!/publish/latest-cid.txt
