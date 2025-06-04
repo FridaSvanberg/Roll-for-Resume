@@ -7,7 +7,7 @@ Welcome! This is my Dungeons & Dragons–inspired portfolio CV Built with **Reac
 ## 🚀 View Live
 
 - 🔁 [Latest version via IPNS](https://w3s.link/ipns/k51qzi5uqu5dhxnxzz4sp2jre8zjvase81v91eznzvryktifym02hwohhavfh0)
-- 📦 [Snapshot version (CID)](https://bafybeib5a5fs2v5hbhhnysv4zoqfa3363h47rmb7zd7mhhcgpn36duplbu.ipfs.w3s.link/)
+- 📦 [Snapshot version (CID)](https://bafybeieae4y2fgtwv5x5oik4rmciannwyigtxyvwfknlgvr3p62uxl522e.ipfs.w3s.link/)
 
 ---
 
