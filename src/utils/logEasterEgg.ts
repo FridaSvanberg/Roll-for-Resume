@@ -1,4 +1,4 @@
-export function logEasterEgg() {
+export function logEasterEgg(): void {
   const roll = Math.floor(Math.random() * 20) + 1;
 
 
