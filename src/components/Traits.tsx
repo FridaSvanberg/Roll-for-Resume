@@ -1,10 +1,20 @@
 const Traits = () => {
   return (
-    <section aria-labelledby="traits-heading" className="mt-8">
-      <h2 id="traits-heading" className="text-xl text-yellow-300 mb-2">
-        📜 Traits & Side Quests
+    <section
+      id="traits"
+      aria-labelledby="traits-heading"
+      className="mt-8 bg-zinc-800 rounded-xl p-4 shadow flex flex-col gap-2"
+    >
+      <h2
+        id="traits-heading"
+        className="text-xl font-bold text-yellow-300 mb-2 items-center gap-2"
+      >
+        <span role="img" aria-label="Scroll">
+          📜
+        </span>{' '}
+        Traits & Side Quests
       </h2>
-      <ul className=" list-inside text-gray-300 space-y-1">
+      <ul className=" list-inside text-zinc-100 space-y-1 pl-1">
         <li>🧩 Neurodivergent – sees structure, flow, and logic differently</li>{' '}
         <li>🎯 Clear communicator – gives and receives feedback with care</li>
         <li>🤗 Supportive teammate – brings calm energy and listens well</li>
