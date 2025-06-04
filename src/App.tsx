@@ -4,7 +4,7 @@ import CampaignLog from './components/CampaignLog';
 import Contact from './components/Contact';
 import DownloadCV from './components/DownloadCV';
 import Footer from './components/Footer';
-import Header from './components/Header';
+// import Header from './components/Header';
 import Proficiencies from './components/Proficiencies';
 // import Spellbook from './components/Spellbook';
 import Stats from './components/Stats';
@@ -13,6 +13,8 @@ import Traits from './components/Traits';
 import bgPlaceholder from '../src/assets/bg-placeholder.png';
 
 import showCspInfo from './utils/consoleMessage';
+import MobileHeader from './components/MobileHeader';
+import MobileNav from './components/MobileNav';
 
 function App() {
   showCspInfo();
@@ -27,13 +29,15 @@ function App() {
       <header className="sr-only">
         <h1>Frida Svanberg - Front-End Developer</h1>
       </header>
+      <MobileNav />
       <main
         id="main-content"
         className="min-h-screen bg-gray-900 text-gray-100 font-mono bg-cover bg-center bg-no-repeat"
         style={{ backgroundImage: `url(${bgPlaceholder})` }}
       >
         <div className="max-w-3xl mx-auto bg-gray-800 border-4 border-yellow-500 rounded-xl shadow-xl p-6 space-y-6">
-          <Header />
+          <MobileHeader />
+          {/* <Header /> */}
           <About />
           <Stats />
           <Proficiencies />
