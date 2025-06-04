@@ -40,7 +40,6 @@ Welcome! This is my Dungeons & Dragons–inspired portfolio CV Built with **Reac
 src/
 ├── assets/           #  Images, icons, and static files
 ├── components/       #  Reusable React components
-├── hooks/            #  Custom React hooks for shared logic
 ├── utils/            #  Helper functions and utility modules
 ├── App.tsx           #  Main app layout
 ├── main.tsx          #  React app entry point
