@@ -81,7 +81,3 @@ This repo includes a full breakdown of the setup, accessibility features, and fu
 ---
 
 > _"Roll for initiative... and by that I mean: let's build something cool!"_
-
-```
-
-```
