@@ -1,7 +1,7 @@
 const MobileHeader = () => {
   return (
     <header
-      className="flex flex-col items-center justify-center py-8 px-4 bg-zinc-900 text-white gap-2"
+      className="flex flex-col items-center justify-center py-8 px-4 bg-zinc-900 text-white gap-2 md:hidden"
       role="banner"
     >
       {/* Optional profile image */}
