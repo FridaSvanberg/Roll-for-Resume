@@ -24,7 +24,7 @@ const Contact = () => {
         <li>
           <span className="text-yellow-400">🔗 LinkedIn:</span>{' '}
           <a
-            href="https://www.linkedin.com/in/fridasvanberg"
+            href="https://www.linkedin.com/in/frida-svanberg"
             target="_blank"
             rel="noopener noreferrer"
             className="underline text-blue-300 hover:text-yellow-400 focus:outline focus:outline-2 focus:outline-yellow-400"

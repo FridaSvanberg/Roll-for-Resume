@@ -74,7 +74,7 @@ This repo includes a full breakdown of the setup, accessibility features, and fu
 ## 📬 Contact
 
 - 📧 svanberg92@gmail.com
-- 💼 [LinkedIn](https://www.linkedin.com/in/fridasvanberg)
+- 💼 [LinkedIn](https://www.linkedin.com/in/frida-svanberg)
 - 🐙 [GitHub](https://github.com/FridaSvanberg)
 
 ---
