@@ -39,7 +39,7 @@ const Contact = () => {
               aria-label="LinkedIn"
             />
             <a
-              href="https://www.linkedin.com/in/fridasvanberg"
+              href="https://www.linkedin.com/in/frida-svanberg"
               target="_blank"
               rel="noopener noreferrer"
               className="underline text-blue-300 hover:text-yellow-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 rounded px-1 transition"
