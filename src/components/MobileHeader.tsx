@@ -1,3 +1,4 @@
+import FridaSvanberg from '../assets/FridaSvanberg.jpeg';
 const MobileHeader = () => {
   return (
     <header
@@ -5,7 +6,7 @@ const MobileHeader = () => {
       role="banner"
     >
       <img
-        src="/src/assets/FridaSvanberg.jpeg"
+        src={FridaSvanberg}
         alt="Frida Svanberg"
         className="w-24 h-24 rounded-full border-4 border-violet-600 mb-3"
       />
