@@ -4,8 +4,11 @@ const MobileHeader = () => {
       className="flex flex-col items-center justify-center py-8 px-4 bg-zinc-900 text-white gap-2 md:hidden"
       role="banner"
     >
-      {/* Optional profile image */}
-      {/* <img src="/profile.jpg" alt="Frida Svanberg" className="w-24 h-24 rounded-full border-4 border-violet-600 mb-3" /> */}
+      <img
+        src="/src/assets/FridaSvanberg.jpeg"
+        alt="Frida Svanberg"
+        className="w-24 h-24 rounded-full border-4 border-violet-600 mb-3"
+      />
 
       <h1 className="text-3xl font-extrabold tracking-tight text-center">
         Frida Svanberg
