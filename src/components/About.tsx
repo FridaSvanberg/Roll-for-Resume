@@ -1,6 +1,10 @@
 const About = () => {
   return (
-    <section className="mb-8 text-gray-300" aria-labelledby="about-heading">
+    <section
+      id="about"
+      className="mb-8 bg-zinc-800 rounded-xl p-4 shadow flex flex-col gap-3 text-zinc-100"
+      aria-labelledby="about-heading"
+    >
       <h2 id="about-heading" className="sr-only">
         About Me
       </h2>
