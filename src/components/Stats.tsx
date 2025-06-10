@@ -43,11 +43,11 @@ const Stats = () => (
   >
     <h2
       id="stats-heading"
-      className="text-xl font-bold text-yellow-300 mb-4 flex items-center gap-2"
+      className="text-xl font-bold text-yellow-300 mb-2 items-center gap-2"
     >
       <span role="img" aria-label="Target">
         🎯
-      </span>
+      </span>{' '}
       Stats
     </h2>
     <ul className="flex flex-col gap-3">

@@ -55,16 +55,17 @@ const CampaignLog = () => {
 
   return (
     <section
+      id="experience"
       aria-labelledby="campaign-heading"
       className="bg-zinc-800 rounded-xl p-4 my-4 shadow"
     >
       <h2
         id="campaign-heading"
-        className="text-xl font-bold text-yellow-300 mb-2 flex items-center gap-2"
+        className="text-xl font-bold text-yellow-300 mb-2 items-center gap-2"
       >
         <span role="img" aria-label="Map">
           🗺️
-        </span>
+        </span>{' '}
         Campaign Log
       </h2>
       <div className="space-y-3">

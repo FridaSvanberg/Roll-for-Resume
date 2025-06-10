@@ -22,11 +22,11 @@ const Proficiencies = () => {
     <section
       id="skills"
       aria-labelledby="proficiencies-heading"
-      className="mb-12 px-4 sm:px-6 lg:px-8"
+      className="mt-8 bg-zinc-800 rounded-xl p-4 shadow flex flex-col gap-2"
     >
       <h2
         id="proficiencies-heading"
-        className="text-xl text-yellow-300 mb-6 text-center"
+        className="text-xl font-bold text-yellow-300 mb-2 items-center gap-2"
       >
         🛠️ Proficiencies
       </h2>
