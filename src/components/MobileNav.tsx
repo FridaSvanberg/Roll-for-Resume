@@ -17,10 +17,10 @@ const MobileNav = () => {
         Skills
       </a>
       <a
-        href="#projects"
+        href="#experience"
         className="text-violet-300 px-3 py-1 text-lg font-bold rounded focus:outline-none focus:ring-2 focus:ring-violet-400"
       >
-        Projects
+        Experience
       </a>
       <a
         href="#contact"

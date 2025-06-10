@@ -5,6 +5,7 @@ import { GiDiceTwentyFacesTwenty } from 'react-icons/gi';
 const Contact = () => {
   return (
     <section
+      id="contact"
       aria-labelledby="contact-heading"
       className="my-8 bg-zinc-800 rounded-xl p-4 shadow flex flex-col items-center"
     >
