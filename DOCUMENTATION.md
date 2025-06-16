@@ -146,7 +146,7 @@ npm run preview
 ## 📬 Contact Information
 
 - 📧 Email: [svanberg92@gmail.com](mailto:svanberg92@gmail.com)
-- 💼 LinkedIn: [linkedin.com/in/fridasvanberg](https://www.linkedin.com/in/fridasvanberg)
+- 💼 LinkedIn: [linkedin.com/in/frida-svanberg](https://www.linkedin.com/in/frida-svanberg)
 - 🐙 GitHub: [github.com/FridaSvanberg](https://github.com/FridaSvanberg)”
 
 ---
