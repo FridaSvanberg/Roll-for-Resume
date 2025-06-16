@@ -1,6 +1,6 @@
 import './App.css';
 import About from './components/About';
-import DesktopHeader from './components/DesktopHeader';
+// import DesktopHeader from './components/DesktopHeader';
 import CampaignLog from './components/CampaignLog';
 import Contact from './components/Contact';
 import DownloadCV from './components/DownloadCV';
@@ -17,10 +17,21 @@ import MobileHeader from './components/MobileHeader';
 import MobileNav from './components/MobileNav';
 import MobileFooter from './components/MobileFooter';
 
+import DesktopProfileSidebar from './components/DesktopProfileSidebar';
+
 function App() {
   showCspInfo();
   return (
-    <div className="min-h-screen flex flex-col bg-gray-900 text-gray-100 font-mono">
+    <div
+      className="min-h-screen w-full flex flex-col bg-gray-900 text-gray-100 font-mono overflow-x-hidden"
+      style={{
+        backgroundColor: '#101828',
+        backgroundImage: `url(${bgPlaceholder})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
+      }}
+    >
       <a
         href="#main-content"
         className="sr-only focus:not-sr-only absolute left-4 top-4 bg-yellow-400 text-black font-bold px-4 py-2 rounded z-50 transition"
@@ -33,12 +44,14 @@ function App() {
       <MobileNav />
       <main
         id="main-content"
-        className="min-h-screen bg-gray-900 text-gray-100 font-mono bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${bgPlaceholder})` }}
+        className="min-h-screen bg-gray-900 text-gray-100 font-mono flex flex-col md:flex-row"
       >
-        <div className="max-w-3xl mx-auto bg-gray-800 border-4 border-yellow-500 rounded-xl rounded-b-none md:rounded-b-xl shadow-xl p-6 space-y-6">
+        <aside className="hidden md:flex md:flex-col w-[340px] lg:w-96 p-8">
+          <DesktopProfileSidebar />
+        </aside>
+        <section className="w-full md:w-2/3 lg:w-3/4 xl:w-4/5 max-w-3xl mx-auto md:mx-0 bg-gray-800 border-4 border-yellow-500 rounded-xl md:rounded-l-none md:rounded-r-xl shadow-xl p-6 space-y-6">
           <MobileHeader />
-          <DesktopHeader />
+          {/* <DesktopHeader /> */}
           <About />
           <Stats />
           <Proficiencies />
@@ -47,7 +60,7 @@ function App() {
           {/* <Spellbook /> */}
           <DownloadCV />
           <Contact />
-        </div>
+        </section>
       </main>
       <MobileFooter />
       <DesktopFooter />
