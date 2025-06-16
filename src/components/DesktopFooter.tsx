@@ -14,15 +14,27 @@ const DesktopFooter = () => {
         themed with D&D, and focused on accessibility ♿
       </p>
       <p>
-        CV hosted on the decentralized web via{' '}
+        Hosted on{' '}
         <a
-          href="https://w3s.link/ipns/k51qzi5uqu5dhxnxzz4sp2jre8zjvase81v91eznzvryktifym02hwohhavfh0"
+          href="https://rollforresume.xyz"
           className="underline hover:text-yellow-400"
           target="_blank"
           rel="noopener noreferrer"
         >
-          IPNS @ w3s.link
+          GitHub Pages
+        </a>{' '}
+        •{' '}
+        <a
+          href="https://w3s.link/ipns/k51qzi5uqu5dhzw7nlhmsx96eiim9betbxncsc2hileogg8p884cu7lo53t2ev"
+          className="underline hover:text-yellow-400"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          IPNS mirror also available
         </a>
+      </p>
+      <p className="italic text-yellow-300 mt-2">
+        This resume rolled a nat 20 on performance 🎲
       </p>
     </footer>
   );
