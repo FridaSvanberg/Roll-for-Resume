@@ -17,23 +17,23 @@ const DownloadCV = () => {
         <a
           href="/FridaSvanbergCV.pdf"
           download
-          className="w-full sm:w-auto bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-full shadow-md transition focus:outline-none focus:ring-2 focus:ring-yellow-300 text-lg flex items-center justify-center gap-2"
+          className="w-full sm:w-auto bg-violet-600 hover:bg-violet-700 text-white font-bold py-3 px-6 rounded-full shadow-md transition focus:outline-none focus:ring-2 focus:ring-yellow-300 text-lg flex items-center justify-center gap-2"
         >
           <span role="img" aria-label="CV">
             📄
           </span>
-          Download Full CV
+          Download CV
         </a>
 
         <a
           href="/FridaSvanbergCoverLetter.pdf"
           download
-          className="w-full sm:w-auto bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full shadow-md transition focus:outline-none focus:ring-2 focus:ring-blue-300 text-lg flex items-center justify-center gap-2"
+          className="w-full sm:w-auto bg-violet-600 hover:bg-violet-700 text-white focus:ring-violet-300 font-bold py-3 px-6 rounded-full shadow-md transition focus:outline-none focus:ring-2 text-lg flex items-center justify-center gap-2"
         >
           <span role="img" aria-label="Cover Letter">
             💌
           </span>
-          Read Cover Letter
+          Cover Letter
         </a>
       </div>
     </section>
