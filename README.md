@@ -1,14 +1,16 @@
 # Frida Svanberg – Front-End Developer (Level 7)
 
-Welcome! This is my Dungeons & Dragons–inspired portfolio CV Built with **React**, **TypeScript**, **Tailwind CSS**, and deployed via **Web3.Storage** using **IPNS**. It’s a creative, accessible, and responsive personal site that shares a little more personality than your average resume scroll.
+Welcome! This is my Dungeons & Dragons–inspired portfolio CV — built with **React**, **TypeScript**, **Tailwind CSS**, and hosted via **GitHub Pages** at [rollforresume.xyz](https://rollforresume.xyz). It’s a creative, accessible, and responsive personal site that shares a little more personality than your average resume scroll — with a little Web3 magic on the side.
 
 ---
 
 ## 🚀 View Live
 
+- 🧙‍♀️ [Main site](https://rollforresume.xyz) – Custom domain via GitHub Pages
+
 - 🔁 [Latest version via IPNS](https://w3s.link/ipns/k51qzi5uqu5dhzw7nlhmsx96eiim9betbxncsc2hileogg8p884cu7lo53t2ev)
 
-- 📦 [Snapshot version (CID)](https://bafybeicjj7nxxlzvwrra3igygskklfc7uhzo2t3wii3r3b6kfzuzqa4wea.ipfs.w3s.link/)
+- 📦 [Snapshot version (CID)](https://bafybeifdcfbayf7ks3wg335fys5nvp64wofmiupzltowv2lkcgukoq4ari.ipfs.w3s.link)
 
 ---
 
@@ -18,8 +20,8 @@ Welcome! This is my Dungeons & Dragons–inspired portfolio CV Built with **Reac
 - 🎨 Custom theme with pixel art styling and light fantasy inspiration
 - 📄 Downloadable CV and cover letter
 - 🔧 Clean, component-based architecture
-- Web3-hosted via Web3.Storage (now rebranded as [Storacha](https://storacha.network/))
-- Automated deploy script (build → upload → update IPNS)
+- 🌐 Hosted via GitHub Pages with custom domain (`rollforresume.xyz`)
+- 🧪 Also mirrored on the decentralized web via IPNS (Web3.Storage + w3name)
 
 ---
 
@@ -29,9 +31,8 @@ Welcome! This is my Dungeons & Dragons–inspired portfolio CV Built with **Reac
 - `Vite`
 - `Tailwind CSS v4`
 - `react-icons`
-- `Web3.Storage (w3up)`
-- `IPNS for permanent, mutable links`
-- `Custom deploy script using w3name + Node.js`
+- `GitHub Pages` + `CNAME` DNS config
+- `Also available via IPNS (Web3.Storage + w3name)` for decentralized access
 
 ---
 
