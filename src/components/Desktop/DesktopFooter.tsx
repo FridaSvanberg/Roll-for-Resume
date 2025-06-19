@@ -1,4 +1,4 @@
-import AccessibilityModal from './AccessibilityModal';
+import AccessibilityModal from '../AccessibilityModal';
 
 const DesktopFooter = () => {
   return (

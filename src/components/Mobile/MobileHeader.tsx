@@ -1,4 +1,4 @@
-import FridaSvanberg from '../assets/FridaSvanberg.jpeg';
+import FridaSvanberg from '../../assets/FridaSvanberg.jpeg';
 const MobileHeader = () => {
   return (
     <header

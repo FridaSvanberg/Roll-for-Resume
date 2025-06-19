@@ -4,7 +4,7 @@ import About from './components/About';
 import CampaignLog from './components/CampaignLog';
 import Contact from './components/Contact';
 import DownloadCV from './components/DownloadCV';
-import DesktopFooter from './components/DesktopFooter';
+import DesktopFooter from './components/Desktop/DesktopFooter';
 import Proficiencies from './components/Proficiencies';
 // import Spellbook from './components/Spellbook';
 import Stats from './components/Stats';
@@ -13,11 +13,11 @@ import Traits from './components/Traits';
 import bgPlaceholder from '../src/assets/bg-placeholder.png';
 
 import showCspInfo from './utils/consoleMessage';
-import MobileHeader from './components/MobileHeader';
-import MobileNav from './components/MobileNav';
-import MobileFooter from './components/MobileFooter';
+import MobileHeader from './components/Mobile/MobileHeader';
+import MobileNav from './components/Mobile/MobileNav';
+import MobileFooter from './components/Mobile/MobileFooter';
 
-import DesktopProfileSidebar from './components/DesktopProfileSidebar';
+import DesktopProfileSidebar from './components/Desktop/DesktopProfileSidebar';
 
 function App() {
   showCspInfo();
