@@ -18,6 +18,7 @@ import MobileNav from './components/Mobile/MobileNav';
 import MobileFooter from './components/Mobile/MobileFooter';
 
 import DesktopProfileSidebar from './components/Desktop/DesktopProfileSidebar';
+import CharacterSheetBanner from './components/CharacterSheetBanner';
 
 function App() {
   showCspInfo();
@@ -44,14 +45,16 @@ function App() {
       <MobileNav />
       <main
         id="main-content"
-        className="min-h-screen bg-gray-900 text-gray-100 font-mono flex flex-col md:flex-row"
+        className="min-h-screen  bg-gray-900 text-gray-100 font-mono flex flex-col md:flex-row md:p-8 md:space-x-8"
       >
-        <aside className="hidden md:flex md:flex-col w-[340px] lg:w-96 p-8">
+        <aside className="hidden md:flex md:flex-col w-[340px] lg:w-96">
+          {' '}
           <DesktopProfileSidebar />
         </aside>
-        <section className="w-full md:w-2/3 lg:w-3/4 xl:w-4/5 max-w-3xl mx-auto md:mx-0 bg-gray-800 border-4 border-yellow-500 rounded-xl md:rounded-l-none md:rounded-r-xl shadow-xl p-6 space-y-6">
+        <section className="flex-1 bg-gray-800 border-4 border-yellow-500 rounded-xl  md:rounded-r-xl shadow-xl p-8 space-y-6">
           <MobileHeader />
           {/* <DesktopHeader /> */}
+          <CharacterSheetBanner />
           <About />
           <Stats />
           <Proficiencies />
