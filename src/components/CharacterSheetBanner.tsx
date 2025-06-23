@@ -1,30 +1,59 @@
-const characterStats = [
+import React from 'react';
+import {
+  LuSparkles,
+  LuCompass,
+  LuBook,
+  LuFingerprint,
+  LuUsers,
+} from 'react-icons/lu';
+
+import type { IconType } from 'react-icons';
+
+type CharacterStat = {
+  icon: IconType;
+  iconProps?: React.ComponentProps<IconType>;
+  colorClass: string;
+  label: string;
+  value: string;
+  desc: string;
+};
+const characterStats: CharacterStat[] = [
   {
-    icon: '🎤',
+    icon: LuSparkles,
+    iconProps: { title: 'Magical class icon', 'aria-label': 'Class' },
+    colorClass: 'text-violet-300',
     label: 'Class',
     value: 'Front-End Developer',
     desc: 'Masters the keyboard as a wand—typing, tabbing, and refactoring spells.',
   },
   {
-    icon: '🧑‍🎤',
+    icon: LuFingerprint,
+    iconProps: { title: 'Unique identity', 'aria-label': 'Race' },
+    colorClass: 'text-yellow-300',
     label: 'Race',
     value: 'Human (Neurodivergent)',
     desc: 'Sees the world from many creative angles.',
   },
   {
-    icon: '⚡️',
+    icon: LuCompass,
+    iconProps: { title: 'Alignment compass', 'aria-label': 'Alignment' },
+    colorClass: 'text-green-300',
     label: 'Alignment',
     value: 'Chaotic Good',
     desc: 'Fights for users, even if it bends the rules.',
   },
   {
-    icon: '🧭',
+    icon: LuBook,
+    iconProps: { title: 'Background book', 'aria-label': 'Background' },
+    colorClass: 'text-blue-300',
     label: 'Background',
     value: 'Self-Taught Adventurer',
     desc: 'Learns by questing through docs and dungeons.',
   },
   {
-    icon: '🛡️',
+    icon: LuUsers,
+    iconProps: { title: 'Party role users', 'aria-label': 'Party Role' },
+    colorClass: 'text-pink-300',
     label: 'Party Role',
     value: 'UX Paladin & Team Bard',
     desc: 'Vanquishes bugs, empowers the fellowship, and rolls nat 20s for teamwork.',
@@ -48,8 +77,11 @@ const CharacterSheetBanner = () => (
           key={stat.label}
           className="flex items-start gap-4 bg-zinc-900 rounded-lg px-4 py-3"
         >
-          <span className="text-2xl mt-1" role="img" aria-label={stat.label}>
-            {stat.icon}
+          <span className={`text-2xl mt-1 ${stat.colorClass}`}>
+            <stat.icon
+              className={stat.colorClass}
+              {...(stat.iconProps ?? {})}
+            />
           </span>
           <div>
             <div className="flex gap-2 items-center">

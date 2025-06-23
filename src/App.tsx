@@ -1,13 +1,10 @@
 import './App.css';
 import About from './components/About';
-// import DesktopHeader from './components/DesktopHeader';
 import CampaignLog from './components/CampaignLog';
 import Contact from './components/Contact';
 import DownloadCV from './components/DownloadCV';
 import DesktopFooter from './components/Desktop/DesktopFooter';
 import Proficiencies from './components/Proficiencies';
-// import Spellbook from './components/Spellbook';
-import Stats from './components/Stats';
 import Traits from './components/Traits';
 
 import bgPlaceholder from '../src/assets/bg-placeholder.png';
@@ -19,6 +16,7 @@ import MobileFooter from './components/Mobile/MobileFooter';
 
 import DesktopProfileSidebar from './components/Desktop/DesktopProfileSidebar';
 import CharacterSheetBanner from './components/CharacterSheetBanner';
+import DesktopHeader from './components/Desktop/DesktopHeader';
 
 function App() {
   showCspInfo();
@@ -53,14 +51,12 @@ function App() {
         </aside>
         <section className="flex-1 bg-gray-800 border-4 border-yellow-500 rounded-xl  md:rounded-r-xl shadow-xl p-8 space-y-6">
           <MobileHeader />
-          {/* <DesktopHeader /> */}
-          <CharacterSheetBanner />
+          <DesktopHeader />
           <About />
-          <Stats />
+          <CharacterSheetBanner />
           <Proficiencies />
           <Traits />
           <CampaignLog />
-          {/* <Spellbook /> */}
           <DownloadCV />
           <Contact />
         </section>
