@@ -28,15 +28,12 @@ const Proficiencies = () => {
         id="proficiencies-heading"
         className="text-xl font-bold text-yellow-300 mb-2 items-center gap-2"
       >
-        🛠️ Proficiencies
+        Proficiencies
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-gray-300 text-sm">
         <div>
           <h3 className="text-lg font-semibold text-yellow-400 mb-3 items-center gap-2">
-            <span role="img" aria-label="Gears">
-              ⚙️
-            </span>{' '}
             Core Tech
           </h3>
           <ul className="flex flex-wrap gap-4 items-center justify-center">
@@ -81,9 +78,6 @@ const Proficiencies = () => {
 
         <div>
           <h3 className="text-lg font-semibold text-yellow-400 mb-3 items-center gap-2">
-            <span role="img" aria-label="Handshake">
-              🤝
-            </span>{' '}
             Workflow & Tools
           </h3>
           <ul className="flex flex-wrap gap-4 items-center justify-center">

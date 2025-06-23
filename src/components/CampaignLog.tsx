@@ -63,9 +63,6 @@ const CampaignLog = () => {
         id="campaign-heading"
         className="text-xl font-bold text-yellow-300 mb-2 items-center gap-2"
       >
-        <span role="img" aria-label="Map">
-          🗺️
-        </span>{' '}
         Campaign Log
       </h2>
       <div className="space-y-3">

@@ -40,9 +40,6 @@ const CharacterSheetBanner = () => (
       id="character-sheet-heading"
       className="text-xl font-bold text-yellow-300 mb-4 flex items-center gap-2"
     >
-      <span role="img" aria-label="Character Sheet">
-        📜
-      </span>
       Character Sheet
     </h2>
     <ul className="flex flex-col gap-3">
