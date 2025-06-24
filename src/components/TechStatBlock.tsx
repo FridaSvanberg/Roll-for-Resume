@@ -1,3 +1,5 @@
+import type React from 'react';
+import type { IconType } from 'react-icons';
 import {
   SiReact,
   SiTypescript,
@@ -5,29 +7,54 @@ import {
   SiNodedotjs,
 } from 'react-icons/si';
 
-const stats = [
+type TechStat = {
+  icon: IconType;
+  iconProps?: React.ComponentProps<IconType>;
+  label: string;
+  value: string;
+  desc: string;
+};
+
+const techStats: TechStat[] = [
   {
-    icon: <SiReact className="text-violet-300" aria-label="React" />,
+    icon: SiReact,
+    iconProps: {
+      title: 'React',
+      'aria-label': 'React',
+    },
     label: 'React',
-    bonus: '19',
+    value: '19',
     desc: 'Hooks master, component wizard, SSR ready',
   },
+
   {
-    icon: <SiTypescript className="text-violet-300" aria-label="TypeScript" />,
+    icon: SiTypescript,
+    iconProps: {
+      title: 'TypeScript',
+      'aria-label': 'TypeScript',
+    },
     label: 'TS',
-    bonus: '5',
+    value: '5',
     desc: 'Typed magic, safer code, generics galore',
   },
   {
-    icon: <SiTailwindcss className="text-violet-300" aria-label="Tailwind" />,
-    label: 'Tailwind',
-    bonus: '4',
+    icon: SiTailwindcss,
+    iconProps: {
+      title: 'Tailwind',
+      'aria-label': 'Tailwind',
+    },
+    label: 'TS',
+    value: '4',
     desc: 'Utility spells for rapid UI design',
   },
   {
-    icon: <SiNodedotjs className="text-violet-300" aria-label="Node.js" />,
+    icon: SiNodedotjs,
+    iconProps: {
+      title: 'Node.js',
+      'aria-label': 'Node.js',
+    },
     label: 'Node',
-    bonus: '20',
+    value: '20',
     desc: 'API spells, backend quests, npm bard',
   },
 ];
@@ -41,28 +68,23 @@ const TechStatBlock = () => (
       id="tech-stats-heading"
       className="text-sm font-bold text-yellow-200 mb-2 flex items-center gap-2"
     >
-      <span role="img" aria-label="Sparkles">
-        ✨
-      </span>{' '}
       Tech Ability Scores
     </h2>
     <ul className="flex flex-col gap-3">
-      {stats.map((stat) => (
+      {techStats.map(({ icon: Icon, iconProps, label, value, desc }) => (
         <li
-          key={stat.label}
+          key={label}
           className="flex items-center gap-3 bg-zinc-900 rounded-lg px-3 py-2"
         >
-          <span className="text-2xl" aria-label={stat.label}>
-            {stat.icon}
+          <span className="text-2xl text-violet-300">
+            <Icon {...(iconProps ?? {})} />
           </span>
           <div className="flex-1">
             <div className="flex gap-2 items-center">
-              <span className="font-bold text-yellow-200">{stat.label}</span>
-              <span className="ml-auto text-green-400 font-bold">
-                v{stat.bonus}
-              </span>
+              <span className="font-bold text-yellow-200">{label}</span>
+              <span className="ml-auto text-green-400 font-bold">v{value}</span>
             </div>
-            <div className="text-zinc-400 text-xs">{stat.desc}</div>
+            <div className="text-zinc-400 text-xs">{desc}</div>
           </div>
         </li>
       ))}

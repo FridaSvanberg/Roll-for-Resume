@@ -1,21 +1,38 @@
+import type React from 'react';
+import type { IconType } from 'react-icons';
 import { MdEmail } from 'react-icons/md';
 import { SiLinkedin, SiGithub } from 'react-icons/si';
 import FridaSvanberg from '../assets/FridaSvanberg.jpeg';
 
-const socials = [
+type SocialLink = {
+  href: string;
+  icon: IconType;
+  iconProps?: React.ComponentProps<IconType>;
+  label: string;
+};
+const socials: SocialLink[] = [
   {
+    icon: MdEmail,
+    iconProps: {
+      title: 'Email Frida',
+    },
     href: 'mailto:frida@example.com',
-    icon: <MdEmail />,
     label: 'Email Frida',
   },
   {
+    icon: SiLinkedin,
+    iconProps: {
+      title: "Frida's LinkedIn",
+    },
     href: 'https://www.linkedin.com/in/frida-svanberg/',
-    icon: <SiLinkedin />,
     label: "Frida's LinkedIn",
   },
   {
+    icon: SiGithub,
+    iconProps: {
+      title: "Frida's GitHub",
+    },
     href: 'https://github.com/FridaSvanberg',
-    icon: <SiGithub />,
     label: "Frida's GitHub",
   },
 ];
@@ -50,7 +67,7 @@ const ProfileCard = () => {
         Download CV
       </a>
       <ul className="flex gap-4 mt-2" aria-label="Social links">
-        {socials.map(({ href, icon, label }) => (
+        {socials.map(({ icon: Icon, iconProps, href, label }) => (
           <li key={href}>
             <a
               href={href}
@@ -59,7 +76,11 @@ const ProfileCard = () => {
               aria-label={label}
               className="text-violet-300 hover:text-yellow-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-yellow-400 transition text-2xl"
             >
-              {icon}
+              <Icon
+                {...(iconProps ?? {})}
+                className="text-2xl"
+                aria-hidden="true"
+              />
             </a>
           </li>
         ))}
