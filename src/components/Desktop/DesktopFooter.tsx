@@ -8,9 +8,7 @@ const DesktopFooter = () => {
         campaign. May your quests be full of clean code and good teammates.
       </p>
 
-      <p>
-        © {new Date().getFullYear()} Frida Svanberg – built with 🧠, 🎨 & 💻
-      </p>
+      <p>© {new Date().getFullYear()} Frida Svanberg</p>
       <p>
         Coded in <span className="text-yellow-300">React + Tailwind</span>,
         themed with D&D, and focused on accessibility ♿
