@@ -6,11 +6,8 @@ const DownloadCV = () => {
     >
       <h2
         id="downloads-heading"
-        className="text-xl font-bold text-yellow-300 mb-4 flex items-center gap-2"
+        className="text-2xl font-bold text-yellow-300 mb-4 flex items-center gap-2"
       >
-        <span role="img" aria-label="Download">
-          📥
-        </span>
         Downloads
       </h2>
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4 w-full">
@@ -19,9 +16,6 @@ const DownloadCV = () => {
           download
           className="w-full sm:w-auto bg-violet-600 hover:bg-violet-700 text-white font-bold py-3 px-6 rounded-full shadow-md transition focus:outline-none focus:ring-2 focus:ring-yellow-300 text-lg flex items-center justify-center gap-2"
         >
-          <span role="img" aria-label="CV">
-            📄
-          </span>
           Download CV
         </a>
 
@@ -30,9 +24,6 @@ const DownloadCV = () => {
           download
           className="w-full sm:w-auto bg-violet-600 hover:bg-violet-700 text-white focus:ring-violet-300 font-bold py-3 px-6 rounded-full shadow-md transition focus:outline-none focus:ring-2 text-lg flex items-center justify-center gap-2"
         >
-          <span role="img" aria-label="Cover Letter">
-            💌
-          </span>
           Cover Letter
         </a>
       </div>

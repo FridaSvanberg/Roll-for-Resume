@@ -24,7 +24,7 @@ const characterStats: CharacterStat[] = [
     colorClass: 'text-violet-300',
     label: 'Class',
     value: 'Front-End Developer',
-    desc: 'Masters the keyboard as a wand—typing, tabbing, and refactoring spells.',
+    desc: 'Masters the keyboard as a wand-typing, tabbing, and refactoring spells.',
   },
   {
     icon: LuFingerprint,
@@ -67,7 +67,7 @@ const CharacterSheetBanner = () => (
   >
     <h2
       id="character-sheet-heading"
-      className="text-xl font-bold text-yellow-300 mb-4 flex items-center gap-2"
+      className="text-2xl font-bold text-yellow-300 mb-4 items-center gap-2"
     >
       Character Sheet
     </h2>

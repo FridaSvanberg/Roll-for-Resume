@@ -66,7 +66,7 @@ const TechStatBlock = () => (
   >
     <h2
       id="tech-stats-heading"
-      className="text-sm font-bold text-yellow-200 mb-2 flex items-center gap-2"
+      className="text-l font-bold text-yellow-400 mb-2 items-center gap-2"
     >
       Tech Ability Scores
     </h2>
