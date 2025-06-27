@@ -43,13 +43,12 @@ function App() {
       <MobileNav />
       <main
         id="main-content"
-        className="min-h-screen  bg-gray-900 text-gray-100 font-mono flex flex-col md:flex-row md:p-8 md:space-x-8"
+        className="min-h-screen bg-gray-900 text-gray-100 font-mono flex flex-col md:flex-row md:p-8 md:space-x-8"
       >
-        <aside className="hidden md:flex md:flex-col w-[340px] lg:w-96">
-          {' '}
+        <aside className="hidden md:flex md:flex-col w-[340px] lg:w-96 bg-zinc-900 border-4 border-violet-600 rounded-2xl shadow-2xl p-8 gap-5">
           <DesktopProfileSidebar />
         </aside>
-        <section className="flex-1 bg-gray-800 border-4 border-yellow-500 rounded-xl  md:rounded-r-xl shadow-xl p-8 space-y-6">
+        <section className="flex-1 bg-gray-800 border-4 border-yellow-500 rounded-xl md:rounded-r-xl shadow-xl p-8 space-y-6">
           <MobileHeader />
           <DesktopHeader />
           <About />
