@@ -43,7 +43,7 @@ const techStats: TechStat[] = [
       title: 'Tailwind',
       'aria-label': 'Tailwind',
     },
-    label: 'TS',
+    label: 'Tailwind',
     value: '4',
     desc: 'Utility spells for rapid UI design',
   },
