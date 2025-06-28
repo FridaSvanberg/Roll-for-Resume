@@ -63,7 +63,7 @@ const characterStats: CharacterStat[] = [
 const CharacterSheetBanner = () => (
   <section
     aria-labelledby="character-sheet-heading"
-    className="bg-zinc-800 rounded-xl p-4 mb-8 shadow"
+    className="bg-zinc-800 rounded-xl p-4 mb-8 shadow border border-yellow-500"
   >
     <h2
       id="character-sheet-heading"

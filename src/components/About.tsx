@@ -2,6 +2,7 @@ const About = () => {
   return (
     <section
       aria-labelledby="about-heading"
+      id="about"
       className="mb-8 p-4 shadow flex flex-col gap-3 text-zinc-100"
     >
       <h2

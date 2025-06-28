@@ -179,7 +179,7 @@ const Proficiencies = () => {
     <section
       id="skills"
       aria-labelledby="proficiencies-heading"
-      className="mt-8 bg-zinc-800 rounded-xl p-4 shadow flex flex-col gap-2"
+      className="mt-8 bg-zinc-800 rounded-xl p-4 shadow border border-yellow-500 flex flex-col gap-2"
     >
       <h2
         id="proficiencies-heading"

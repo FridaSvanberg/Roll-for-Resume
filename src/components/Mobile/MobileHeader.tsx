@@ -2,7 +2,7 @@ import FridaSvanberg from '../../assets/FridaSvanberg.jpeg';
 const MobileHeader = () => {
   return (
     <header
-      className="flex flex-col items-center justify-center py-8 px-4 bg-zinc-900 text-white gap-2 md:hidden"
+      className="flex flex-col items-center justify-center rounded-xl py-8 px-4 bg-zinc-900 text-white gap-2 md:hidden"
       role="banner"
     >
       <img

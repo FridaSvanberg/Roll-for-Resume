@@ -57,7 +57,7 @@ const CampaignLog = () => {
     <section
       id="experience"
       aria-labelledby="campaign-heading"
-      className="bg-zinc-800 rounded-xl p-4 my-4 shadow"
+      className="bg-zinc-800 rounded-xl p-4 my-4 shadow border border-yellow-500"
     >
       <h2
         id="campaign-heading"

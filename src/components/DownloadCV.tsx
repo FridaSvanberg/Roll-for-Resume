@@ -2,7 +2,7 @@ const DownloadCV = () => {
   return (
     <section
       aria-labelledby="downloads-heading"
-      className="my-8 bg-zinc-800 rounded-xl p-4 shadow flex flex-col items-center"
+      className="my-8 bg-zinc-800 rounded-xl p-4 shadow border border-yellow-500 flex flex-col items-center"
     >
       <h2
         id="downloads-heading"

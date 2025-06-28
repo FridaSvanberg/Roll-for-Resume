@@ -3,7 +3,7 @@ const Traits = () => {
     <section
       id="traits"
       aria-labelledby="traits-heading"
-      className="mt-8 bg-zinc-800 rounded-xl p-4 shadow flex flex-col gap-2"
+      className="mt-8 bg-zinc-800 rounded-xl p-4 shadow border border-yellow-500 flex flex-col gap-2"
     >
       <h2 className=" items-center gap-2 text-2xl font-bold text-yellow-300 ">
         Traits & Side Quests
