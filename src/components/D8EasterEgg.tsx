@@ -23,9 +23,9 @@ const D8EasterEgg = () => {
   return (
     <section
       className="mt-4 flex flex-col items-center gap-2"
-      aria-labelledby="d20-heading"
+      aria-labelledby="d8-heading"
     >
-      <h2 id="d20-heading" className="sr-only">
+      <h2 id="d8-heading" className="sr-only">
         Bardic Fact Roller
       </h2>
       <button

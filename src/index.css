@@ -7,30 +7,5 @@ html, body, #root {
   margin: 0;
   padding: 0;
   background: #101828;
-
 }
 
-@media print {
-  body {
-    background: #fff !important;
-    color: #000 !important;
-    font-size: 12pt;
-  }
-
-
-  header,
-  footer,
-  section {
-    page-break-inside: avoid;
-  }
-
-  a::after {
-    content: " (" attr(href) ")";
-    font-size: 10pt;
-    color: #555;
-  }
-
-  .no-print {
-    display: none;
-  }
-}
