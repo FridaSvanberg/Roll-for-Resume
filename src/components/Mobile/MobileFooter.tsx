@@ -1,5 +1,5 @@
 const MobileFooter = () => (
-  <footer className="mb-16 bg-gray-800 p-3 shadow text-center text-xs text-zinc-400 md:hidden border-t-2 border-yellow-500 max-w-3xl">
+  <footer className="mb-16 bg-gray-800 p-3 shadow text-center text-xs text-zinc-400 md:hidden max-w-3xl">
     <p>
       © {new Date().getFullYear()} Frida Svanberg
       <br />
@@ -19,7 +19,7 @@ const MobileFooter = () => (
       also available
     </p>
     <p className="italic text-yellow-300 mt-2">
-      This resume rolled a nat 20 on performance 🎲
+      This resume rolled a nat 20 on performance
     </p>
   </footer>
 );

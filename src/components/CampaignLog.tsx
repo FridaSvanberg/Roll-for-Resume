@@ -5,7 +5,7 @@ const jobs = [
     id: 'hakierka-role',
     company: 'Hakierka',
     title: 'Developer',
-    dates: 'Feb 2024 – Present',
+    dates: 'Feb 2024 - Present',
     items: [
       'Tested Web3.Storage-related code to check functionality and usability ',
       'Gave feedback to improve the experience for developers',
@@ -16,9 +16,9 @@ const jobs = [
     id: 'stryda-role',
     company: 'Stryda',
     title: 'Frontend Developer',
-    dates: 'May 2022 – Jan 2024',
+    dates: 'May 2022 - Jan 2024',
     items: [
-      'Promoted from intern to lead dev of the intern squad 🛡️',
+      'Promoted from intern to lead dev of the intern squad',
       'Held retros, led daily stand-ups, and wrote battle plans (tickets)',
       'Built a Business Intelligence admin portal using React + TypeScript',
       'Bridged communication between dev realms (frontend + backend) for smoother launches',
@@ -28,7 +28,7 @@ const jobs = [
     id: 'compodium-role',
     company: 'Compodium',
     title: 'Frontend Developer',
-    dates: 'Mar 2021 – Apr 2022',
+    dates: 'Mar 2021 - Apr 2022',
     items: [
       'Developed Vidicue, a secure video conference app for healthcare and municipal teams to connect with clients',
       'Focused on building a safe, accessible frontend for sensitive user data',
@@ -39,9 +39,9 @@ const jobs = [
     id: 'hygglo-role',
     company: 'Hygglo',
     title: 'Frontend Developer',
-    dates: 'Feb 2019 – Feb 2021',
+    dates: 'Feb 2019 - Feb 2021',
     items: [
-      'Started as an intern and took full responsibility for the admin platform’s frontend 🛠️',
+      'Started as an intern and took full responsibility for the admin platform’s frontend',
       'Refactored legacy code, improved workflows, and modernized the tech stack',
       'Created seasonal campaign features (Easter, Pride) in collaboration with the marketing team',
       'Championed diversity and inclusion in design ideas and feature planning',
@@ -57,15 +57,12 @@ const CampaignLog = () => {
     <section
       id="experience"
       aria-labelledby="campaign-heading"
-      className="bg-zinc-800 rounded-xl p-4 my-4 shadow"
+      className="bg-zinc-800 rounded-xl p-4 my-4 shadow border border-yellow-500"
     >
       <h2
         id="campaign-heading"
-        className="text-xl font-bold text-yellow-300 mb-2 items-center gap-2"
+        className="text-2xl text-center font-bold text-yellow-300 mb-2 gap-2"
       >
-        <span role="img" aria-label="Map">
-          🗺️
-        </span>{' '}
         Campaign Log
       </h2>
       <div className="space-y-3">
@@ -81,7 +78,7 @@ const CampaignLog = () => {
               aria-expanded={open === job.id}
               aria-controls={`${job.id}-body`}
             >
-              <span>
+              <span className="flex flex-col items-start text-left">
                 {job.title} @ {job.company}
                 <span className="block text-xs text-gray-400 font-normal">
                   {job.dates}
@@ -94,7 +91,7 @@ const CampaignLog = () => {
                 id={`${job.id}-body`}
                 className="p-3 text-zinc-100 rounded-b-lg"
               >
-                <ul className="list-disc pl-6 space-y-1 text-sm">
+                <ul className="list-disc text-left marker:text-yellow-300 marker:text-lg pl-6 space-y-2">
                   {job.items.map((item, i) => (
                     <li key={i}>{item}</li>
                   ))}

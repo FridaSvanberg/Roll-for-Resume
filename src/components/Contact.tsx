@@ -7,15 +7,12 @@ const Contact = () => {
     <section
       id="contact"
       aria-labelledby="contact-heading"
-      className="my-8 bg-zinc-800 rounded-xl p-4 shadow flex flex-col items-center"
+      className="my-8 bg-zinc-800 rounded-xl p-4 shadow border border-yellow-500 flex flex-col items-center"
     >
       <h2
         id="contact-heading"
-        className="text-xl font-bold text-yellow-300 mb-2 flex items-center gap-2"
+        className="text-2xl font-bold text-yellow-300 mb-2 flex items-center gap-2"
       >
-        <span role="img" aria-label="Envelope">
-          📨
-        </span>
         Use the Sending Spell
       </h2>
       <p className="text-zinc-100 mb-4">
